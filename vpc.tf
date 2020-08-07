@@ -14,6 +14,7 @@ module "vpc" {
   tags = {
     Terraform = "true"
     Environment = "dev"
-    Department = "Billable"
+    Department = "HQ"
+    Billable = "Y"
   }
 }
